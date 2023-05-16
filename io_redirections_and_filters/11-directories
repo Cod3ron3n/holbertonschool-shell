@@ -1,2 +1,2 @@
 #!/bin/bash
-find minddepth -1 | wc -l
+find -minddepth -type d | wc -l

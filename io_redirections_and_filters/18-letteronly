@@ -1,2 +1,2 @@
 #!/bin/bash
-find * -regex "[a-zA-Z]"
+grep "^[a-z][A-Z]"

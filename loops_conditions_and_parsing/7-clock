@@ -9,7 +9,7 @@ do
 minute=1
 	while [ $minute -le 59 ]
 	do
-		eho "$minute"
+		echo "$minute"
 		(( minutes++ ))
 	done
 	(( hour++ ))

@@ -2,7 +2,8 @@
 #This script is displaying "Best school" 10 times
 count=1 
 while [ $count -le 20 ]
-do 
+do
+       	echo "$count"	
 	case $count in
 4)
 	echo "4
@@ -20,5 +21,5 @@ bad luck from Italy"
 	echo "$count"
 		;;
 esac
-count=$(( count+1 ))
+(( count++ ))
 done
